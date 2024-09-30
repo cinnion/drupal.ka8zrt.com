@@ -158,6 +158,10 @@ GitHub.sublime-settings
 # Ignore Mac specific files
 .DS_Store
 
+#
+# Ignore log files
+#
+/*.log
 
 #
 # Ignore emacs files

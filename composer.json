@@ -33,6 +33,7 @@
         "drupal/file_mdm_exif": "^3.1",
         "drupal/file_mdm_font": "^3.1",
         "drupal/image_link_formatter": "^2.2",
+        "drupal/jquery_ui": "^1.7",
         "drupal/layout_builder_blocks": "^1.1",
         "drupal/libraries": "^4.0",
         "drupal/maxlength": "^3.1",
@@ -42,6 +43,7 @@
         "drupal/search_api": "^1.35",
         "drupal/superfish": "^1.8",
         "drupal/svg_image": "^3.1",
+        "drupal/taxonomy_manager": "^2.0",
         "drush/drush": "^13"
     },
     "conflict": {

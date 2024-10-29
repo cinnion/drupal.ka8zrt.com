@@ -20,6 +20,7 @@
         "drupal/admin_toolbar": "^3.5",
         "drupal/antibot": "^2.0",
         "drupal/asset_injector": "^2.21",
+        "drupal/block_class": "^3.0",
         "drupal/bootstrap_layout_builder": "^2.2",
         "drupal/chosen": "^4.0",
         "drupal/classy": "^1.0",

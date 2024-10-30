@@ -1,0 +1,8 @@
+uuid: 306f857f-016d-4b46-8d7a-c5de3819df29
+langcode: en
+status: true
+dependencies: {  }
+id: yyyy_mm_dd_hh_mm
+label: 'YYYY/MM/DD HH:MM '
+locked: false
+pattern: '%Y/%m/%d %H:%i %A'

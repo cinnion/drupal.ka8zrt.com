@@ -1,0 +1,33 @@
+uuid: a2e1e1a7-7bad-4cec-82ee-bae9c134cdec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categories
+    - node.type.article
+    - taxonomy.vocabulary.categories
+  content:
+    - 'taxonomy_term:categories:2e8d0f43-9de7-4075-a8d0-a0e9fd989b22'
+id: node.article.field_categories
+field_name: field_categories
+entity_type: node
+bundle: article
+label: Categories
+description: 'Enter a comma-separated list. For example: Unix, Ansible'
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 2e8d0f43-9de7-4075-a8d0-a0e9fd989b22
+default_value_callback: ''
+settings:
+  handler: 'default:filter_existing_terms'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

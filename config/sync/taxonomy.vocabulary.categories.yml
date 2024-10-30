@@ -1,0 +1,9 @@
+uuid: d377299c-4972-4c3a-a93c-5093c575939d
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'A list of categories'
+weight: 0
+new_revision: false

@@ -1,0 +1,32 @@
+uuid: 0edf9b37-bd6e-457e-b47b-1e8c5b0f4a33
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: background_image
+label: 'Background Image'
+code: |-
+  main {
+   background-image: url("/sites/default/files/orion-1.jpg");
+  }
+
+  /*
+   * May only want to apply this to "article > h2" and "article > .node__content > field--name-body" instead of "article"
+   */
+  article {
+  	background-image: none;
+  	background-color: #fff;
+    padding: 1em 1.5em;
+    color: #404040;
+  	
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: classic_blog
+contexts: {  }
+conditions_require_all: true

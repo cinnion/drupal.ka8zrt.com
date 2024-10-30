@@ -833,4 +833,4 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
-$settings['config_sync_directory'] = 'sites/default/files/config_ahBtaAXs6FTCq1eD5Gnw5o-Lovd6ewbsb8eqPfDHZ-3sG1WS7Hpv5Gn__oUibUePgr7zDOg9AA/sync';
+$settings['config_sync_directory'] = '../config/sync';

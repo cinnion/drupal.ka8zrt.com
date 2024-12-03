@@ -5,7 +5,9 @@ pipeline {
         stage('Deploy to beta') {
             steps {
 	        sshagent(credentials: ['jenkins-ssh']) {
-		    ssh root@beta 'cd /var/www/drupal.ka8zrt.com && git pull --ff-only'
+		    sh '''
+		        ssh root@beta 'cd /var/www/drupal.ka8zrt.com && git pull --ff-only'
+		    '''
 		}
             }
         }

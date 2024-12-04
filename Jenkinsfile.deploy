@@ -6,7 +6,13 @@ pipeline {
             steps {
 	        sshagent(credentials: ['jenkins-ssh']) {
 		    sh '''
-		        ssh root@beta 'cd /var/www/drupal.ka8zrt.com && git pull --ff-only && composer install  && vendor/bin/drush updb'
+		        ssh root@beta 'cd /var/www/drupal.ka8zrt.com \
+			    && git pull --ff-only \
+			    && composer install \
+			    && vendor/bin/drush cr \
+			    && vendor/bin/drush cim \
+			    && vendor/bin/drush updb \
+			    && vendor/bin/drush cr'
 		    '''
 		}
             }

@@ -9,6 +9,7 @@ pipeline {
 		        ssh root@beta 'cd /var/www/drupal.ka8zrt.com \
 			    && git pull --ff-only \
 			    && composer install \
+			    && chown -R apache:apache . \
 			    && vendor/bin/drush cr \
 			    && vendor/bin/drush cim \
 			    && vendor/bin/drush updb \

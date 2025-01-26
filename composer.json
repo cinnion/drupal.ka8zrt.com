@@ -23,6 +23,7 @@
         "drupal/block_class": "^3.0",
         "drupal/bootstrap_layout_builder": "^2.2",
         "drupal/chosen": "^4.0",
+        "drupal/ckeditor_media_resize": "^1.0",
         "drupal/classy": "^1.0",
         "drupal/config_ignore": "^3.3",
         "drupal/core-composer-scaffold": "^10",

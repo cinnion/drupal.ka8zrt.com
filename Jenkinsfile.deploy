@@ -1,5 +1,9 @@
 pipeline {
-    agent docker-agent-rhel
+    agent {
+        node {
+            label 'docker-agent-rhel'
+	}
+    }
 
     stages {
         stage('Deploy to beta') {

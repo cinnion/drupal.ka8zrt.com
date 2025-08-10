@@ -1,0 +1,24 @@
+uuid: f0eac96c-0e78-40b6-b67c-b57ccdd21790
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - views
+  theme:
+    - clean_blog_theme
+id: clean_blog_theme_views_block__content_recent_block_1
+theme: clean_blog_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility: {  }

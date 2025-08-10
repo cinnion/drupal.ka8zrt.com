@@ -27,6 +27,6 @@ conditions:
   current_theme:
     id: current_theme
     negate: false
-    theme: classic_blog
+    theme: clean_blog_theme
 contexts: {  }
 conditions_require_all: true

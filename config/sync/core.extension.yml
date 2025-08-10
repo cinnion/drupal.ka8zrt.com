@@ -81,4 +81,7 @@ module:
 theme:
   olivero: 0
   claro: 0
+  stable: 0
+  classy: 0
+  clean_blog_theme: 0
 profile: standard

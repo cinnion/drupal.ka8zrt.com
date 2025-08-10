@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "git",
+            "url" : "git@github.com:dweinerATL/clean_blog_theme.git"
         }
     ],
     "require": {
@@ -44,7 +48,8 @@
         "drupal/superfish": "^1.8",
         "drupal/svg_image": "^3.1",
         "drupal/taxonomy_manager": "^2.0",
-        "drush/drush": "^13"
+        "drush/drush": "^13",
+        "dweineratl/clean_blog_theme": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

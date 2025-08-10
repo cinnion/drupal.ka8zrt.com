@@ -1,0 +1,29 @@
+uuid: ad1d85db-bda3-453b-8e15-0b4b442c4181
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d0df9486-c514-4426-b322-2c3d6f0003e9'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - clean_blog_theme
+third_party_settings:
+  block_class:
+    classes: views-element-container
+id: clean_blog_theme_aboutthissite
+theme: clean_blog_theme
+region: sidebar_second
+weight: -5
+provider: null
+plugin: 'block_content:d0df9486-c514-4426-b322-2c3d6f0003e9'
+settings:
+  id: 'block_content:d0df9486-c514-4426-b322-2c3d6f0003e9'
+  label: 'About This Site'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

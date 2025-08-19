@@ -15,7 +15,7 @@
         },
         {
             "type": "git",
-            "url" : "git@github.com:dweinerATL/clean_blog_theme.git"
+            "url" : "git@github.com:omscllc/clean_blog_theme.git"
         }
     ],
     "require": {

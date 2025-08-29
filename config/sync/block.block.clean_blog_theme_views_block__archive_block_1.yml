@@ -1,21 +1,21 @@
-uuid: ac4565bf-e4ac-4450-aa90-bd53a66f83de
+uuid: c03604b2-862b-40bf-aad3-bdab358fc55f
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.content_recent
+    - views.view.archive
   module:
     - views
   theme:
     - clean_blog_theme
-id: clean_blog_theme_views_block__content_recent_block_1
+id: clean_blog_theme_views_block__archive_block_1
 theme: clean_blog_theme
 region: sidebar_second
-weight: -7
+weight: -6
 provider: null
-plugin: 'views_block:content_recent-block_1'
+plugin: 'views_block:archive-block_1'
 settings:
-  id: 'views_block:content_recent-block_1'
+  id: 'views_block:archive-block_1'
   label: ''
   label_display: visible
   provider: views

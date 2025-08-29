@@ -1,4 +1,4 @@
-uuid: 203d51e2-2acd-4e93-ab84-6f04a85bdeb5
+uuid: d26a2fe4-08c9-4d75-8bb3-4db75da4f6ae
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: clean_blog_theme_views_block__comments_recent_block_1
 theme: clean_blog_theme
 region: sidebar_second
-weight: -7
+weight: -8
 provider: null
 plugin: 'views_block:comments_recent-block_1'
 settings:

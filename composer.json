@@ -49,7 +49,7 @@
         "drupal/svg_image": "^3.1",
         "drupal/taxonomy_manager": "^2.0",
         "drush/drush": "^13",
-        "dweineratl/clean_blog_theme": "^1.0"
+        "omscllc/clean_blog_theme": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"

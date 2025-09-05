@@ -21,6 +21,21 @@ code: |-
     color: #404040;
   	
   }
+
+  #block-clean-blog-theme-powered {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  #block-clean-blog-theme-socialmedialinks {
+  	display: flex;
+  	justify-content: center;
+  }
+
+  #block-clean-blog-theme-copyright {
+  	color: white;
+  	text-align: center;
+  }
 media: all
 preprocess: true
 conditions:

@@ -25,6 +25,7 @@ code: |-
   #block-clean-blog-theme-powered {
   	display: flex;
   	justify-content: center;
+  	color: white;
   }
 
   #block-clean-blog-theme-socialmedialinks {

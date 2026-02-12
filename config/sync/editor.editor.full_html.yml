@@ -99,6 +99,9 @@ settings:
       multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    editor_advanced_link_link:
+      enabled_attributes:
+        - target
     media_media:
       allow_view_mode_override: false
 image_upload:

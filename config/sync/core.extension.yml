@@ -3,6 +3,7 @@ _core:
 module:
   addtoany: 0
   admin_toolbar: 0
+  anchor_link: 0
   announcements_feed: 0
   antibot: 0
   asset_injector: 0

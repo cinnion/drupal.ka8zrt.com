@@ -21,6 +21,7 @@ settings:
       - removeFormat
       - '|'
       - link
+      - anchor
       - '|'
       - bulletedList
       - numberedList

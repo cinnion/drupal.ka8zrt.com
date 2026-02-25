@@ -35,6 +35,7 @@ settings:
       - outdent
       - '|'
       - heading
+      - code
       - codeBlock
       - '|'
       - sourceEditing

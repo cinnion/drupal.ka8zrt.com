@@ -12,6 +12,7 @@ dependencies:
     - core.entity_view_mode.media.token
   module:
     - ckeditor_media_resize
+    - collapse_text
     - editor
     - media
 _core:
@@ -38,6 +39,14 @@ filters:
     status: true
     weight: 9
     settings: {  }
+  filter_collapse_text:
+    id: filter_collapse_text
+    provider: collapse_text
+    status: true
+    weight: 0
+    settings:
+      default_title: 'Click here to expand or collapse this section'
+      form: true
   filter_html:
     id: filter_html
     provider: filter

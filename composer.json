@@ -28,6 +28,7 @@
         "drupal/block_class": "^3.0",
         "drupal/bootstrap_layout_builder": "^2.2",
         "drupal/chosen": "^4.0",
+        "drupal/ckeditor_emoji": "^2.0",
         "drupal/ckeditor_media_resize": "^1.1",
         "drupal/collapse_text": "^2.0",
         "drupal/colorbox": "^2.2",

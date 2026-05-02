@@ -3,6 +3,7 @@ _core:
 module:
   addtoany: 0
   admin_toolbar: 0
+  admin_toolbar_search: 0
   anchor_link: 0
   announcements_feed: 0
   antibot: 0
@@ -66,6 +67,7 @@ module:
   pgsql: 0
   phpass: 0
   responsive_image: 0
+  search: 0
   search_api: 0
   shortcut: 0
   social_media_links: 0

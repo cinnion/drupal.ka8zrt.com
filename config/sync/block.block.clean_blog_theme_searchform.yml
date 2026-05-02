@@ -1,0 +1,29 @@
+uuid: 1b5755f5-cf59-405b-b8e4-6d2a64c5f478
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - user
+  theme:
+    - clean_blog_theme
+id: clean_blog_theme_searchform
+theme: clean_blog_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: visible
+  provider: search
+  page_id: null
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

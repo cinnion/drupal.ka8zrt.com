@@ -5,37 +5,42 @@ dependencies:
   module:
     - system
 id: background_image
-label: 'Background Image'
+label: 'CSS Styling (Background image, background color, etc.)'
 code: |-
   main {
-   background-image: url("/sites/default/files/orion-1.jpg");
+      background-image: url("/sites/default/files/orion-1.jpg");
   }
 
   /*
    * May only want to apply this to "article > h2" and "article > .node__content > field--name-body" instead of "article"
    */
-  article {
-  	background-image: none;
-  	background-color: #fff;
-    padding: 1em 1.5em;
-    color: #404040;
-  	
+  article,
+  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories
+  {
+      background-image: none;
+      background-color: #fff;
+      padding: 1em 1.5em;
+      color: #404040;
   }
 
   #block-clean-blog-theme-powered {
-  	display: flex;
-  	justify-content: center;
-  	color: white;
+      display: flex;
+      justify-content: center;
+      color: white;
   }
 
   #block-clean-blog-theme-socialmedialinks {
-  	display: flex;
-  	justify-content: center;
+      display: flex;
+      justify-content: center;
   }
 
   #block-clean-blog-theme-copyright {
-  	color: white;
-  	text-align: center;
+      color: white;
+      text-align: center;
+  }
+
+  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories {
+      margin-bottom: 20px;
   }
 media: all
 preprocess: true

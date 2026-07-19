@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - block_class
     - social_media_links
   theme:
     - clean_blog_theme
@@ -35,7 +36,7 @@ settings:
       description: ''
       weight: '-7'
     drupal:
-      value: ''
+      value: douglaswneedham
       description: ''
       weight: '-6'
     email:
@@ -55,7 +56,7 @@ settings:
       description: ''
       weight: '-2'
     gitlab:
-      value: ''
+      value: cinnion
       description: ''
       weight: '-1'
     glassdoor:
@@ -79,7 +80,7 @@ settings:
       description: ''
       weight: '4'
     linkedin:
-      value: in/doug-needham-2057325/
+      value: in/doug-needham/
       description: ''
       weight: '5'
     mastodon:
@@ -159,7 +160,7 @@ settings:
       description: ''
       weight: '24'
     youtube_channel:
-      value: ''
+      value: UCw4NDFH-yRUqDnTNgp0sEGg
       description: ''
       weight: '25'
   appearance:
@@ -167,7 +168,7 @@ settings:
     show_name: 0
     suggestion: ''
   link_attributes:
-    target: '<none>'
+    target: _blank
     rel: '<none>'
   iconset:
     style: 'fontawesome:2x'

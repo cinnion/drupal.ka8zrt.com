@@ -15,7 +15,7 @@ code: |-
    * May only want to apply this to "article > h2" and "article > .node__content > field--name-body" instead of "article"
    */
   article,
-  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories
+  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories, .contextual-region.view
   {
       background-image: none;
       background-color: #fff;
@@ -39,7 +39,7 @@ code: |-
       text-align: center;
   }
 
-  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories {
+  #block-clean-blog-theme-content .view-header .contextual-region.vocabulary-categories .contextual-region.view {
       margin-bottom: 20px;
   }
 media: all

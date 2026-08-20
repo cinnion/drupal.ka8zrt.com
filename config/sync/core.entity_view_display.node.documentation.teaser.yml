@@ -1,0 +1,40 @@
+uuid: 4756d489-3a23-4d29-8e15-5df721ec19ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.documentation.comment
+    - field.field.node.documentation.field_body
+    - field.field.node.documentation.field_categories
+    - node.type.documentation
+  module:
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.documentation.teaser
+targetEntityType: node
+bundle: documentation
+mode: teaser
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  comment: true
+  field_categories: true
+  search_api_excerpt: true

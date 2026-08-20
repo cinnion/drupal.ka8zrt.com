@@ -1,0 +1,18 @@
+uuid: 5a011edc-d132-49c0-ac94-ba73406b62b6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Documentation
+type: documentation
+description: 'Use <em>documentation</em> for static content which is specifically documentation.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -23,6 +23,17 @@ code: |-
       color: #404040;
   }
 
+  #block-clean-blog-theme-views-block-comments-recent-block-1,
+  #block-clean-blog-theme-views-block-content-recent-block-1,
+  #block-clean-blog-theme-views-block-archive-block-1
+  {
+      background-image: none;
+      background-color: #fff;
+      padding: 1em 1.5em;
+      color: #404040;
+      margin-bottom: 20px;
+  }
+
   #block-clean-blog-theme-powered {
       display: flex;
       justify-content: center;
